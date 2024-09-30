@@ -6,17 +6,16 @@ Initialisiere ein neues ***Git-Repository*** mit dem Befehl **git init**
 
 2. Um deinen Namen und die Email-Adresse für git zu identifizieren musst du dies einmal in einer ***globalen*** Konfiguration bestätigen
 Nutze hierfür folgende Befehle :
-**git config --global user.name "Dein Name"**
-**git config --global user.email "deine.email@beispiel.com"**
+
+    * git config --global user.name "Dein Name"
+    * git config --global user.email "deine.email@beispiel.com"
 
 ## **3. Verwaltung von Änderungen mit Git:**
-
     * 1.Erstelle eine neue Datei mit dem Befehl:  **touch "Dateiname"** 
     * 2.Datei zum Staging-Bereich hinzufügen mit dem Befehl: **git add "Dateiname"**
     * 3.Erstelle einen Commit, um die Änderungen zu speichern mit dem Befehl: **git commit -m "Kommentar"**
 
 ## **4. Verbindung zu einem Remote-Repository:**
-
     * 1.Füge das Remote-Repository deinem lokalen Repository hinzu mit dem Befehl: **git remote add origin git@github.com:user.name/Anleitung.git**
     * 2. Überprüfe, ob das Remote korrekt hinzugefügt wurde mit dem Befehl: **git remote -v**
     * 3.Clonen des Repositories mit dem Befehl: **git clone git@github.com:user.name/Anleitung.git**
