@@ -1,20 +1,13 @@
 # **Anleitung**
 
-## **1. Initialisierung des Projekts mit Git:**
+1. ***Git*** muss zuerst runtergeladen und auf deinem Rechner installiert werden.
+Prüfe anschließend ob git richtig installiert wurde mit dem Befehl **git --version**
+Initialisiere ein neues ***Git-Repository*** mit dem Befehl **git init**
 
-* Zunächst soll jeder Entwickler ***Git*** lokal auf seinem Rechner einrichten.
-*   Legen Sie zunächst ein Verzeichnis namens **“Anleitung”** in Ihrem **/home/user** Verzeichnis an mit dem Befehl **mkdir Anleitung** an.
-*   Wechsel Sie in den Verzeichnis “Anleitung” mt dem Befehl **cd Anleitung**
-*   Um den Verzeichnis “Anleitung” als Git Verzeichnis zu identifizieren, führen SIe den Befehl **git init** aus.
-
-* Anschließend soll ein neues ***Git-Repository*** im Ordner des Projekts initialisiert werden.
-Führen Sie dafür bitte folgenden Befehl aus: **git remote add origin git@github.com:user.name/Anleitung.git**
-
-2. Einrichtung von Git:
-* Git muss konfiguriert werden, damit jeder Entwickler eindeutig identifiziert werden kann.
-    **git config --global user.name "Ihr Name"**
-    **git config --global user.email "Ihre Email"**
-* Dabei sollen der Name und die E-Mail-Adresse festgelegt werden.
+2. Um deinen Namen und die Email-Adresse für git zu identifizieren musst du dies einmal in einer ***globalen*** Konfiguration bestätigen
+Nutze hierfür folgende Befehle :
+**git config --global user.name "Dein Name"**
+**git config --global user.email "deine.email@beispiel.com"**
 
 ## **3. Verwaltung von Änderungen mit Git:**
 
