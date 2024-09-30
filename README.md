@@ -17,11 +17,13 @@ Nutze hierfür folgende Befehle :
 * 3.Erstelle einen Commit, um die Änderungen zu speichern mit dem Befehl: **git commit -m "Kommentar"**
 
 ## **4. Verbindung zu einem Remote-Repository:**
-
-* 1.Füge das Remote-Repository deinem lokalen Repository hinzu mit dem Befehl: 
+* 1. Erzeuge einen ssh-key mit dem Befehl **ssh-keygen -t ed25519 -C "your_email@example.com"**
+* 2. Hinterlege deinen öffentlichen ssh-key, zu finden in **~/.ssh/id_ed25519.pub**, auf 
+deinem GitHub-Konto unter Settings >> SSH and GPG keys >> New SSH key
+* 3.Füge das Remote-Repository deinem lokalen Repository hinzu mit dem Befehl: 
     * **git remote add origin git@github.com:user.name/Anleitung.git**
-* 2.Überprüfe, ob das Remote korrekt hinzugefügt wurde mit dem Befehl: **git remote -v**
-* 3.Clonen des Repositories mit dem Befehl: **git clone git@github.com:user.name/Anleitung.git**
+* 4.Überprüfe, ob das Remote korrekt hinzugefügt wurde mit dem Befehl: **git remote -v**
+* 5.Clonen des Repositories mit dem Befehl: **git clone git@github.com:user.name/Anleitung.git**
 
 ## **5. Synchronisieren von Änderungen :**
 
