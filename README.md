@@ -18,8 +18,9 @@ Nutze hierfür folgende Befehle :
 
 ## **4. Verbindung zu einem Remote-Repository:**
 
-* 1.Füge das Remote-Repository deinem lokalen Repository hinzu mit dem Befehl: **git remote add origin git@github.com:user.name/Anleitung.git**
-* 2. Überprüfe, ob das Remote korrekt hinzugefügt wurde mit dem Befehl: **git remote -v**
+* 1.Füge das Remote-Repository deinem lokalen Repository hinzu mit dem Befehl: 
+**git remote add origin git@github.com:user.name/Anleitung.git**
+* 2.Überprüfe, ob das Remote korrekt hinzugefügt wurde mit dem Befehl: **git remote -v**
 * 3.Clonen des Repositories mit dem Befehl: **git clone git@github.com:user.name/Anleitung.git**
 
 ## **5. Synchronisieren von Änderungen :**
@@ -39,7 +40,7 @@ und gleichzeitig zu kommentieren was man getan oder verändert hat. Dies erfolgt
 ## **7. Zusammenführunen von Branches:**
 
 Ist ein Feature fertig, kann es durch einen ***Merge*** oder ***Pull*** Request
-in den***Main-Branch*** des lokalen Repositorys eingebunden werden. Mit **git merge**
+in den ***Main-Branch*** des lokalen Repositorys eingebunden werden. Mit **git merge**
 kann man den ***lokalen*** Feature-Branch zum lokalen Main-Branch hinzufügen
 und mit **git pull** kann man bspw. neue Features aus dem remote repository
 in das lokale Repository einbinden. 
